@@ -1,0 +1,41 @@
+#Img1,#Img2,#Img3,#Img4,#Img5,#Img6,#Img7,#Img8,#Img9
+{
+	width: 85px; 
+	margin: -2px;
+}
+#Life1,#Life2,#Life3
+{
+	width: 25px;
+}
+body
+{
+	background-color: #fac3db; 
+	color: #988abd;
+}
+button
+{
+	padding: 6px;
+	background-color: #c3e1fa;
+	color: #3c7eb5;
+	border: #c3e1fa;
+	text-align: center;
+	font-size: 12px;
+}
+#tblMain
+{
+	background-color: #ffa6d2;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	text-align: center;
+	color: #f779d0;
+}
+
+p 
+{
+	color: #fa2dba;
+}
+#tblimg
+{
+	padding: -2;
+}

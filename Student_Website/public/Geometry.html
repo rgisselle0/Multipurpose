@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Geometry</title>
+	<link rel="stylesheet" type="text/css" href="CustomGeo.css"></link>
+	<script src="Geo.js"></script>
+</head>
+<body>
+	<h2>Geometry</h2>
+	
+	<button type="button" id="Showbtn">Show Calculator</button>
+	<button type="button" id="Hidebtn">Hide Calculator</button>
+	
+	<div id="divCalculator">
+		<label id = "lblresult"> </label><br>
+		<button type="button" id="btnseven">7</button>
+		<button type="button" id="btneight">8</button>
+		<button type="button" id="btnnine">9</button>
+		<button type="button" id="btnmulti">x</button>
+		<br>
+		<button type="button" id="btnfour">4</button>
+		<button type="button" id="btnfive">5</button>
+		<button type="button" id="btnsix">6</button>
+		<button type="button" id="btnsub">-</button>
+		<br>
+		<button type="button" id="btnone">1</button>
+		<button type="button" id="btntwo">2</button>
+		<button type="button" id="btnthree">3</button>
+		<button type="button" id="btnadd">+</button>
+		<br>
+		<button type="button" id="btnzero">0</button>
+		<button type="button" id="btnequal">=</button>
+		<button type="button" id="btndivide">÷</button>
+		<button type="button" id="btndecimal">.</button>
+		<br>
+		<button type="button" id="btnnegtive">-</button>
+		<button type="button" id="btnclear">clear</button>
+	</div>
+	<div id="divGeo1">
+		<table>
+			<tr> 
+				<td>What are the center and the radius of the circle whose equation is (x - 5)<sup>2</sup> + (y + 3)<sup>2</sup> = 16?<br>
+				<button id="oneAbtn">A)</button> (-5,3) and 16<br>
+				<button id="oneBbtn">B)</button> (5,-3) and 16<br>
+				<button id="oneCbtn">C)</button> (-5,3) and 4<br>
+				<button id="oneDbtn">D)</button> (5,-3) and 4</td>
+			</tr>
+		</table>
+	</div>
+	<button id="btnsub1">Submit</button>
+	<button id="btnNext1">Next --> Question 2</button>
+	<div id="divGeo2">
+		<table>
+			<tr> 
+				<td>The number of degrees in the sum of the interior angles of a pentagon is <br>
+				<button id="twoAbtn">A)</button> 72<br>
+				<button id="twoBbtn">B)</button> 360<br>
+				<button id="twoCbtn">C)</button> 540<br>
+				<button id="twoDbtn">D)</button> 720</td>
+			</tr>
+		</table>
+	</div>
+	<button id="btnsub2">Submit</button>
+	<button id="btnNext2">Next --> Question 3</button>
+	<div id="divGeo3">
+		<table>
+			<tr> 
+				<td>In the diagram below, lines n and m are cut by transversals p and q. <br>
+				<img src="geo3.jpg"><br>
+				What value of x would make lines n and m parallel?<br>
+				<button id="threeAbtn">A)</button> 110<br>
+				<button id="threeBbtn">B)</button> 80<br>
+				<button id="threeCbtn">C)</button> 70<br>
+				<button id="threeDbtn">D)</button> 50</td>
+			</tr>
+		</table>
+	</div>
+	<button id="btnsub3">Submit</button>
+	<button id="btnNext3">Next --> Question 4</button>
+	<div id="divGeo4">
+		<table>
+			<tr> 
+				<td>Scalene triangle ABC is similar to triangle DEF. Which statement is false?<br>
+				<button id="fourAbtn">A)</button> AB:BC = DE:EF<br>
+				<button id="fourBbtn">B)</button> AC:DF = BC:EF<br>
+				<button id="fourCbtn">C)</button> ∠ACB ≅ ∠DFE<br>
+				<button id="fourDbtn">D)</button> ∠ABC ≅ ∠EDF</td>
+			</tr>
+		</table>
+	</div>
+	<button id="btnsub4">Submit</button>
+	<button id="btnNext4">Next --> Question 5</button>
+	<div id="divGeo5">
+		<table>
+			<tr> 
+				<td>A sphere is inscribed inside a cube with edges of 6cm. In cubic centimeters,<br>
+				 what is the volume of the sphere, in terms of π?<br>
+				<button id="fiveAbtn">A)</button> 12π<br>
+				<button id="fiveBbtn">B)</button> 36π<br>
+				<button id="fiveCbtn">C)</button> 48π<br>
+				<button id="fiveDbtn">D)</button> 288π</td>
+			</tr>
+		</table>
+	</div>
+	<button id="btnsub5">Submit</button>
+	<button id="btnNext5">Next --> Question 6</button>
+	<div id="divGeo6">
+		<table>
+			<tr> 
+				<td> Which line is parallel to the line whose equation is 4x + 3y = 7 <br>
+				and also passes through the point (−5, 2)?<br>
+				<button id="sixAbtn">A)</button> 4x + 3y = −26<br>
+				<button id="sixBbtn">B)</button> 4x + 3y = −14<br>
+				<button id="sixCbtn">C)</button> 3x + 4y = −7<br>
+				<button id="sixDbtn">D)</button> 3x + 4y = 14</td>
+			</tr>
+		</table>
+	</div>
+	<button id="btnsub6">Submit</button>
+	<button id="btnNext6">Next --> Question 7</button>
+	<div id="divGeo7">
+		<table>
+			<tr> 
+				<td> In a given triangle, the point of intersection of the <br>
+				three medians is the same as the point of <br>
+				intersection of the three altitudes. Which<br>
+				classification of the triangle is correct?<br>
+				<button id="sevenAbtn">A)</button> scalene triangle<br>
+				<button id="sevenBbtn">B)</button> isosceles triangle<br>
+				<button id="sevenCbtn">C)</button> equilateral triangle<br>
+				<button id="sevenDbtn">D)</button> right isosceles triangle</td>
+			</tr>
+		</table>
+	</div>
+	<button id="btnsub7">Submit</button>
+	<button id="btnNext7">Next --> Question 8</button>
+	<div id="divGeo8">
+		<table>
+			<tr> 
+				<td> Which type of triangle can be drawn using the <br>
+				points (−2, 3), (−2, −7), and (4, −5)?<br>
+				<button id="eightAbtn">A)</button> scalene<br>
+				<button id="eightBbtn">B)</button> isosceles<br>
+				<button id="eightCbtn">C)</button> equilateral<br>
+				<button id="eightDbtn">D)</button> no triangle can be drawn</td>
+			</tr>
+		</table>
+	</div>
+	<button id="btnsub8">Submit</button>
+	<button id="btnNext8">Next --> Question 9</button>
+	<div id="divGeo9">
+		<label id="Geometryquestion9">Given a right-angled triangle with an angle A, where sin A = 3/5, find cos A</label>
+		<input type="text" id="NineInput">
+		<button type="button" id="btnsub9">Submit</button>
+	</div>
+	<button id="btnNext9">Next --> Question 10</button>
+	<div id="divGeo10">
+		<label id="Geometryquestion10">If tan θ = 4/3 find sinθ.</label>
+		<input type="text" id="TenInput">
+		<button type="button" id="btnsub10">Submit</button>
+	</div>
+	<button id="btnNext10">Next --> Review</button>
+	<div id="divGeoRev">
+		<p>You got <label id="lblCorrect"></label> out of 10 correct!!</p>
+		<button id="btnTryAgain">Try Again</button>
+		<a href="Math.html"><button type="button" id="btnReturn3">Return to Math</button></a>
+	</div>
+</body>
+</html>

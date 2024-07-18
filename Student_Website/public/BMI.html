@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BMI Calculator</title>
+	<link rel="stylesheet" type="text/css" href="CustomBMI.css"></link>
+	<script src="BMICal.js"></script>
+</head>
+<body>
+	<h2>BMI</h2>
+	<div id="divMain">
+	<table id="tblMain">
+		<tr>
+			<td><button id="btnAmerican" type="button"> Imperial System (U.S)</button></td>
+		</tr>
+		<tr>
+			<td><button id="btnMetric" type="button"> Metric System</button></td>
+		</tr>
+		<tr>
+			<td><a href="Health.html"><button id="btnreturn" type="button">Return</button></a></td>
+		</tr>
+	</table>
+	</div>
+	<div id="divAmerican">
+	<table id="tblAmerican">
+		<tr>
+			<td><label id="lblPounds"> Enter your weight in pounds: </label>
+			<input id="intPounds" type="text"></input></td>
+		</tr>
+		<tr>
+			<td><label id="lblInches"> Enter your height in Inches: </label>
+			<input id="intInches" type="text"></input></td>
+		</tr>
+		<tr>
+			<td><button id="btnAmericanSub" type="button">Submit</button>
+			<button id="btnMain1" type="button">Return to Main</button></td>
+		<tr>
+	</table>
+	</div>
+	<div id="divMetric">
+	<table id="tblMetric">
+		<tr>
+			<td><label id="lblKilo"> Enter your weight in Kilograms: </label>
+			<input id="intKilo" type="text"></input></td>
+		</tr>
+		<tr>
+			<td><label id="lblMeters"> Enter your height in Meters: </label>
+			<input id="intMeters" type="text"></input></td>
+		</tr>
+		<tr>
+			<td><button id="btnMetricSub" type="button">Submit</button>
+			<button id="btnMain2" type="button">Return to Main</button></td>
+		<tr>
+	</table>
+	</div>
+	<label id="lblBMI"> </label><br>
+	<div id="divBMItable">
+	<table id="tblBMI">
+		<tr>
+			<th id="thBMI">BMI</th>
+			<th id="thStatus">Status</th>
+		</tr>
+		<tr>
+			<td id="tdUnder">≤ 18.4</td>
+			<td id="tdUnder2">Underweight</td>
+		</tr>
+		<tr>
+			<td id="tdNormal">18.5 - 24.9	</td>
+			<td id="tdNormal2">Normal</td>
+		</tr>
+		<tr>
+			<td id="tdOver">25.0 - 39.9	</td>
+			<td id="tdOver2">Overweight</td>
+		</tr>
+		<tr>
+			<td id="tdObese">≥ 40.0	</td>
+			<td id="tdObese2">Obese</td>
+		</tr>
+	</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+#tblMain
+{
+	border: 1px solid black;
+	border-collapse: separate;
+    text-align: center;
+    padding: 20px;
+    background-color:#f0cdfa;
+}
+#tblBMI
+{
+	border: 1px solid black;
+	border-collapse: separate;
+    text-align: center;
+}
+#tblAmerican
+{
+	border: 1px solid black;
+	border-collapse: separate;
+    text-align: center;
+}
+#tblMetric
+{
+	border: 1px solid black;
+	border-collapse: separate;
+    text-align: center;
+}
+#thBMI, #thStatus, #tdUnder,#tdNormal,#tdOver,#tdObese,
+#tdUnder2,#tdNormal2,#tdOver2,#tdObese2
+{
+	padding: 6px;
+	border: 1px solid black; 
+}
+#tdUnder
+{
+	background-color: #afc7ed;
+}
+#tdNormal
+{
+	background-color: #9cf099;
+}
+#tdOver
+{
+	background-color: #f2c79b;
+}
+#tdObese
+{
+	background-color: #fa7373;
+}
+button
+{
+	padding: 8px 24px;
+	text-align: center;
+	font-size: 12px;
+	margin: 4px;
+	color:#988abd;
+}
+body
+{
+	background-color:#f6caec;
+	color: #988abd;
+}

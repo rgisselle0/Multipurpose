@@ -1,0 +1,35 @@
+body
+{
+	background-color: #dbd1f4;
+}
+h2
+{
+	text-align: center;
+	color: #988abd;
+}
+#tblHealth
+{
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+#tblinfo
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+#btnBMI,#btnHealthProvider,#btngym,#btnEP,#btnreturn
+{
+	padding: 14px 30px;
+	background-color: #f6caec;
+	border: #cca5b7;
+	text-align: center;
+	font-size: 14px;
+	color: #cca5b7;
+}
+#tblinfo
+{
+	color: #988abd;
+}

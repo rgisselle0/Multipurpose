@@ -1,0 +1,40 @@
+body
+{
+	background-color: #dbd1f4;
+	color: #988abd;
+}
+h1
+{
+	text-align: center;
+	color: #988abd;
+}
+#CmbCareers
+{
+	width: 70%;
+    padding: 6px;
+    border: 1px ;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto; 
+}
+#divCareers
+{
+    margin: auto; 
+    text-align: center;
+}
+#tblbtn
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+#btnSearch,#btnreturn
+{
+	padding: 8px 15px;
+	background-color: #f6caec;
+	border: #cca5b7;
+	text-align: center;
+	font-size: 14px;
+	color: #cca5b7;
+}

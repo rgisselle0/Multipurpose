@@ -1,0 +1,17 @@
+img
+{
+	width: 200px;
+}
+body
+{
+	background-color:#f6caec;
+	color: #988abd;
+}
+button
+{
+	padding: 8px 24px;
+	text-align: center;
+	font-size: 12px;
+	margin: 4px;
+	color:#988abd;
+}

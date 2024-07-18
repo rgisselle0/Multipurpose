@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jeopardy</title>
+	<link rel="stylesheet" type="text/css" href="CustomJeo.css"></link>
+	<script src="Jeopardy.js"></script>
+</head>
+<body>
+	<div id="main">
+		<table>
+			<tr>
+				<td>
+					<label>How many teams are playing?:</label>
+					<select id="cmbTeams">
+						<option value="No">No teams</option>
+						<option value="Two">2 teams</option>
+						<option value="Three">3 teams</option>
+					</select><br>
+					<button id="btnSub">Submit</button></td>
+			</tr>
+			<tr>
+				<td><a href="Games.html"><button type="button" id="btnreturn">Return to Games</button></a></td>
+			</tr>
+		</table>
+	</div>
+	<div id="divJeopardy">
+		<table>
+			<tr>
+				<th>Math</th>
+				<th>English</th>
+				<th>Science</th>
+				<th>History</th>
+				<th>Other</th>
+			</tr>
+			<tr>
+				<td><button id="btnMath200"><img id="Math200" src="$200.jpg"></button></td>
+				<td><button id="btnEng200"><img id="Eng200" src="$200.jpg"></button></td>
+				<td><button id="btnSci200"><img id="Sci200" src="$200.jpg"></button></td>
+				<td><button id="btnHistory200"><img id="History200" src="$200.jpg"></button></td>
+				<td><button id="btnOther200"><img id="Other200" src="$200.jpg"></button></td>
+			</tr>
+			<tr>
+				<td><button id="btnMath400"><img id="Math400" src="$400.jpg"></button></td>
+				<td><button id="btnEng400"><img id="Eng400" src="$400.jpg"></button></td>
+				<td><button id="btnSci400"><img id="Sci400" src="$400.jpg"></button></td>
+				<td><button id="btnHistory400"><img id="History400" src="$400.jpg"></button></td>
+				<td><button id="btnOther400"><img id="Other400" src="$400.jpg"></button></td>
+			</tr>
+			<tr>
+				<td><button id="btnMath600"><img id="Math600" src="$600.jpg"></button></td>
+				<td><button id="btnEng600"><img id="Eng600" src="$600.jpg"></button></td>
+				<td><button id="btnSci600"><img id="Sci600" src="$600.jpg"></button></td>
+				<td><button id="btnHistory600"><img id="History600" src="$600.jpg"></button></td>
+				<td><button id="btnOther600"><img id="Other600" src="$600.jpg"></button></td>
+			</tr>
+			<tr>
+				<td><button id="btnMath800"><img id="Math800" src="$800.jpg"></button></td>
+				<td><button id="btnEng800"><img id="Eng800" src="$800.jpg"></button></td>
+				<td><button id="btnSci800"><img id="Sci800" src="$800.jpg"></button></td>
+				<td><button id="btnHistory800"><img id="History800" src="$800.jpg"></button></td>
+				<td><button id="btnOther800"><img id="Other800" src="$800.jpg"></button></td>
+			</tr>
+			<tr>
+				<td><button id="btnMath1000"><img id="Math1000" src="$1000.jpg"></button></td>
+				<td><button id="btnEng1000"><img id="Eng1000" src="$1000.jpg"></button></td>
+				<td><button id="btnSci1000"><img id="Sci1000" src="$1000.jpg"></button></td>
+				<td><button id="btnHistory1000"><img id="History1000" src="$1000.jpg"></button></td>
+				<td><button id="btnOther1000"><img id="Other1000" src="$1000.jpg"></button></td>
+			</tr>
+		</table>
+	</div>
+	<div id="divTeam1">
+		<table>
+			<tr>
+				<th>Team 1</th>
+			</tr>
+			<tr>
+				<td><label id="lblPoints1"></label></td>
+			</tr>
+			<tr>
+				<td><button type="button" id="btnAdd1">+</button></td>
+				<td><button type="button" id="btnSubtract1">-</button></td>
+			</tr>
+		</table>
+	</div>
+	<div id="divTeam2">
+		<table>
+			<tr>
+				<th>Team 2</th>
+			</tr>
+			<tr>
+				<td><label id="lblPoints2"></label></td>
+			</tr>
+			<tr>
+				<td><button type="button" id="btnAdd2">+</button></td>
+				<td><button type="button" id="btnSubtract2">-</button></td>
+			</tr>
+		</table>
+	</div>
+	<div id="divTeam3">
+		<table>
+			<tr>
+				<th>Team 3</th>
+			</tr>
+			<tr>
+				<td><label id="lblPoints3"></label></td>
+			</tr>
+			<tr>
+				<td><button type="button" id="btnAdd3">+</button></td>
+				<td><button type="button" id="btnSubtract3">-</button></td>
+			</tr>
+		</table>
+	</div>
+	<div id="divMath200">
+		<label id="lblMath200">If (2^3)^2 = 4^p, then 3^p =</label><br>
+		<button id="BtnMath200RA">Reveal Answer</button><br>
+		<label id="lblMath200Answer">27</label>
+		<button id="btnHide1">Return</button>
+	</div>
+	<div id="divEng200">
+		<label id="lblEng200">The end of a story when all conflicts have been resolved</label><br>
+		<button id="BtnEng200RA">Reveal Answer</button><br>
+		<label id="lblEng200Answer">What is the resolution?</label>
+		<button id="btnHide2">Return</button>
+	</div>
+	<div id="divSci200">
+		<label id="lblSci200">An atom or molecule with a net electric charge due to <br>
+		the loss or gain of one or more electrons.</label><br>
+		<button id="BtnSci200RA">Reveal Answer</button><br>
+		<label id="lblSci200Answer">What is an Ion?</label>
+		<button id="btnHide3">Return</button>
+	</div>
+	<div id="divHistory200">
+		<label id="lblHistory200">Builders of pyramids and obelisks in North Africa</label><br>
+		<button id="BtnHistory200RA">Reveal Answer</button><br>
+		<label id="lblHistory200Answer">Who are the Egyptians?</label>
+		<button id="btnHide4">Return</button>
+	</div>
+	<div id="divOther200">
+		<label id="lblOther200">What state do they call the Show Me state?</label><br>
+		<button id="BtnOther200RA">Reveal Answer</button><br>
+		<label id="lblOther200Answer">What is Missouri?</label>
+		<button id="btnHide5">Return</button>
+	</div>
+	
+	<div id="divMath400">
+		<label id="lblMath400">When the number of people who contribute equally to a gift decreases<br> 
+		from four to three, each person must pay an additional $10. What is the cost of the gift?</label><br>
+		<button id="BtnMath400RA">Reveal Answer</button><br>
+		<label id="lblMath400Answer">$120</label>
+		<button id="btnHide6">Return</button>
+	</div>
+	<div id="divEng400">
+		<label id="lblEng400">This is when the reader must make an inference about characterization as <br>
+		opposed to the author telling about the character directly.</label><br>
+		<button id="BtnEng400RA">Reveal Answer</button><br>
+		<label id="lblEng400Answer">What is indirect characterization?</label>
+		<button id="btnHide7">Return</button>
+	</div>
+	<div id="divSci400">
+		<label id="lblSci400">This is the sum of all chemical reactions that take place inside the body.
+		</label><br>
+		<button id="BtnSci400RA">Reveal Answer</button><br>
+		<label id="lblSci400Answer">What is Metabolism?</label>
+		<button id="btnHide8">Return</button>
+	</div>
+	<div id="divHistory400">
+		<label id="lblHistory400">Type of government in which people elect representatives who make decisions on their behalf</label><br>
+		<button id="BtnHistory400RA">Reveal Answer</button><br>
+		<label id="lblHistory400Answer">What is a republic?</label>
+		<button id="btnHide9">Return</button>
+	</div>
+	<div id="divOther400">
+		<label id="lblOther400">What is the name of the 2nd Star Wars movie ever made?</label><br>
+		<button id="BtnOther400RA">Reveal Answer</button><br>
+		<label id="lblOther400Answer">What is the Empire Strikes Back?</label>
+		<button id="btnHide10">Return</button>
+	</div>
+	
+	<div id="divMath600">
+		<label id="lblMath600">At a certain time of day, a 25-foot telephone pole casts a <br>
+		10-foot shadow. At that same time, how high would a tree have to be in order to <br>
+		cast a 25-food shadow?</label><br>
+		<button id="BtnMath600RA">Reveal Answer</button><br>
+		<label id="lblMath600Answer">62.5 feet. Proportional reasoning with similar triangles.</label>
+		<button id="btnHide11">Return</button>
+	</div>
+	<div id="divEng600">
+		<label id="lblEng600">Melinda changed and evolved as character so she would be <br>
+		considered thisWhat is indirect characterization?</label><br>
+		<button id="BtnEng600RA">Reveal Answer</button><br>
+		<label id="lblEng600Answer">What is a dynamic character? (half points) What is a protagonist?</label>
+		<button id="btnHide12">Return</button>
+	</div>
+	<div id="divSci600">
+		<label id="lblSci600">The spontaneous decomposition of an unstable atomic nucleus into a more <br>
+		stable form, in one of three decays: alpha, beta, gamma.
+		</label><br>
+		<button id="BtnSci600RA">Reveal Answer</button><br>
+		<label id="lblSci600Answer">What is Radioactivity?</label>
+		<button id="btnHide13">Return</button>
+	</div>
+	<div id="divHistory600">
+		<label id="lblHistory600">Year that women were given the right to vote in national elections by the<br> 
+		Nineteenth Amendment: 1865, 1910, 1920, 1950</label><br>
+		<button id="BtnHistory600RA">Reveal Answer</button><br>
+		<label id="lblHistory600Answer">What is 1920?</label>
+		<button id="btnHide14">Return</button>
+	</div>
+	<div id="divOther600">
+		<label id="lblOther600">What chess piece can move in an L-shape?</label><br>
+		<button id="BtnOther600RA">Reveal Answer</button><br>
+		<label id="lblOther600Answer">What is the knight?</label>
+		<button id="btnHide15">Return</button>
+	</div>
+	
+	<div id="divMath800">
+		<label id="lblMath800">What is the equation of the graph obtained by <br>
+		shifting the graph of y=x^2 horizontally to the left 4 units and <br>
+		vertically down 3 units?</label><br>
+		<button id="BtnMath800RA">Reveal Answer</button><br>
+		<label id="lblMath800Answer">y = (x+4)^2 - 3</label>
+		<button id="btnHide16">Return</button>
+	</div>
+	<div id="divEng800">
+		<label id="lblEng800">When a different result from what was expected takes place (hint: 2 words)</label><br>
+		<button id="BtnEng800RA">Reveal Answer</button><br>
+		<label id="lblEng800Answer">What is situational irony?</label>
+		<button id="btnHide17">Return</button>
+	</div>
+	<div id="divSci800">
+		<label id="lblSci800">During this change of state, atoms or molecules will begin to <br>
+		become more ordered.</label><br>
+		<button id="BtnSci800RA">Reveal Answer</button><br>
+		<label id="lblSci800Answer">What is Sublimation?</label>
+		<button id="btnHide18">Return</button>
+	</div>
+	<div id="divHistory800">
+		<label id="lblHistory800">Protection from double jeopardy, self-incrimination; right to due process</label><br>
+		<button id="BtnHistory800RA">Reveal Answer</button><br>
+		<label id="lblHistory800Answer">What is the Fifth Amendment?</label><br>
+		<button id="btnHide19">Return</button>
+	</div>
+	<div id="divOther800">
+		<label id="lblOther800">What is nicknamed the Lone Star State?</label><br>
+		<button id="BtnOther800RA">Reveal Answer</button><br>
+		<label id="lblOther800Answer">What is Texas?</label>
+		<button id="btnHide20">Return</button>
+	</div>
+	
+	<div id="divMath1000">
+		<label id="lblMath1000">Working alone, Bill takes three times the amount <br>
+		of time to paint a fence that Mike takes. If Bill and Mike work together, <br>
+		they can paint the fence in 2 hours. If Mike works at the same rate as when <br>
+		he worked with Bill, how long would it take Mike working alone to paint the <br>
+		same fence? </label><br>
+		<button id="BtnMath1000RA">Reveal Answer</button><br>
+		<label id="lblMath1000Answer">2 hours and 40 minutes. If x represents the <br>
+		number of hours it takes Mike working alone to paint the fence, then 3x is <br>
+		the number of hours it takes Bill working alone to paint the fence.<br>
+		 So 2(1/x) + 2(1/3x) = 1 gives x=8/3 hours.</label>
+		 <button id="btnHide21">Return</button>
+	</div>
+	<div id="divEng1000">
+		<label id="lblEng1000">An idea, object, color, etc. that represents something else.</label><br>
+		<button id="BtnEng1000RA">Reveal Answer</button><br>
+		<label id="lblEng1000Answer">What is a symbol?</label>
+		<button id="btnHide22">Return</button>
+	</div>
+	<div id="divSci1000">
+		<label id="lblSci1000">What speed of sound must a vehicle exceed before it can break the sound barrier?</label><br>
+		<button id="BtnSci1000RA">Reveal Answer</button><br>
+		<label id="lblSci1000Answer">What is 660 mph?</label>
+		<button id="btnHide23">Return</button>
+	</div>
+	<div id="divHistory1000">
+		<label id="lblHistory1000">Amendment repealed by the Twenty-First Amendment</label><br>
+		<button id="BtnHistory1000RA">Reveal Answer</button><br>
+		<label id="lblHistory1000Answer">What is the Eighteenth Amendment?</label>
+		<button id="btnHide24">Return</button>
+	</div>
+	<div id="divOther1000">
+		<label id="lblOther1000">This is the name for the colored part of the eye.
+		</label><br>
+		<button id="BtnOther1000RA">Reveal Answer</button><br>
+		<label id="lblOther1000Answer">What is the iris?</label>
+		<button id="btnHide25">Return</button>
+	</div>
+</body>
+</html>
+				
